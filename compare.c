@@ -4,6 +4,7 @@
 int main(void)
 
 {
-    
+    int x = get_int("What is x? ");
+    int y = get_int("What is y? ");
 
 }
