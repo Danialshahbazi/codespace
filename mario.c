@@ -11,5 +11,15 @@ int main(void)
     // print grid of bricks
     print_grid(n);
 
+}
 
+int get_size(void)
+{
+    int n;
+    do
+    {
+        n = get_size("Size: ")
+    }
+    while(n < 1);
+    return n;
 }
