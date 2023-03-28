@@ -20,7 +20,7 @@ int get_size(void)
     int n;
     do
     {
-        n = get_size("Size: ")
+        n = get_size("Size: ");
     }
     while(n < 1);
     return n;
