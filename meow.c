@@ -5,9 +5,9 @@
 int main(void)
 
 {
-    while (true)
+    for (int i = 0; i < 3; i++)
     {
-        printf("meow\n");
+        printf("#\n");
 
     }
 
